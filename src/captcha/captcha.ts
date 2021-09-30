@@ -159,9 +159,8 @@ export class CanvasCaptcha {
 
     /**
      * 获取value
-     * @private
      */
-    private value() {
+    value() {
         return this.imageData;
     }
 }

@@ -1,17 +1,14 @@
 {
   "name": "gzm-captcha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "captcha for canvas",
   "main": "index.js",
   "keywords": [
     "captcha",
-    "imageCode",
+    "image Code",
     "code",
-    "varify",
     "验证码",
-    "图片验证码",
-    "util",
-    "Verification Code"
+    "图片验证码"
   ],
   "scripts": {
     "build": "npx webpack"
