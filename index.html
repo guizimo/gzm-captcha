@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>测试验证码</title>
+</head>
+<body>
+<p>测试验证码</p>
+<div>
+    <p>图片验证码容器</p>
+    <img id="test" src="" alt="" />
+</div>
+</body>
+<script src="./lib/index.js"></script>
+<script type="module">
+    console.log(captcha.default({ type: "digital" }));
+    document.getElementById('test').src = captcha.default({ type: "digital" }).imageData
+</script>
+</html>
